@@ -1,0 +1,146 @@
+body
+{
+    color: #F7F7F7;
+}
+
+.header
+{
+    background: #F5F5F5;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__link
+{
+    color: #2E2E2E;
+    font: 12px/1.6 "Oxygen";
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 20px;
+    letter-spacing: 0.6px;
+}
+
+.header__esc-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 40px;
+    margin-top: 17px;
+    margin-bottom: 99px;
+}
+
+.post__picture
+{
+    height: 534px;
+    background: #ffffff url(../img/The_road_ahead_background.png);
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.post__text
+{
+    color: #101315;
+    font: 24px/1.46 "Oxygen";
+    margin: 140px 240px;
+}
+
+.header__escape
+{
+    color: #2E2E2E;
+    font: 26px/1 "Lora";
+}
+
+.footer__escape
+{
+    color: #ffffff;
+    font: 26px/1 "Lora";
+}
+
+.header__title
+{
+    color: #2E2E2E;
+    font: 50px/1 "Lora";
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.header__subtitle
+{
+    color: #2E2E2EA1;
+    font: 17px/1.17 "Oxygen";
+    margin-top: 20px;
+    margin-bottom: 113px;
+}
+
+.footer
+{
+    background: #232F3899 url(../img/footer_background.png);
+    background-size: cover;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-bottom
+{
+    background: #232F3899;
+    border-top: solid 1px #FFFFFF1F;
+    height: 89px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__title
+{
+    font: 25px/1.2 "Oxygen";
+    color: #EFEFEF;
+    border-bottom: solid 1px #DEDEDE;
+    padding-bottom: 17px;
+    width: 188px;
+    text-align: center;
+}
+
+.footer-bottom-nav__link
+{
+    color: #FFFFFF99;
+    font: 12px/1.6 "Oxygen";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.footer-form__input
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 375px;
+    height: 50px;
+    border-radius: 0px;
+    margin: 0px;
+    font: 12px/1 "Oxygen";
+}
+
+.footer-form__button
+{
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background: #CFCFCF50;
+    font: 12px/1 "Oxygen";
+}
+
+.footer__form
+{
+    margin-bottom: 80px;
+}
